@@ -10,3 +10,10 @@ src-git telephony https://github.com/coolsnowwolf/telephony.git
 #src-git targets https://github.com/openwrt/targets.git
 #src-git oldpackages http://git.openwrt.org/packages.git
 #src-link custom /usr/src/openwrt/custom-feed
+
+# 补充 helloworld 源（V2Ray 核心依赖）
+src-git helloworld https://github.com/fw876/helloworld
+# 补充 kenzo 源（OpenClash 及常用插件依赖）
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+# 补充 small 源（插件依赖库，避免编译缺失）
+src-git small https://github.com/kenzok8/small
