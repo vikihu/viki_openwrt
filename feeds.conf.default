@@ -6,7 +6,7 @@ src-git telephony https://github.com/coolsnowwolf/telephony
 
 # 关键补充：OpenClash & V2Ray 必备插件源（活跃维护，避免编译报错）
 # 1. helloworld 源：提供 V2Ray 核心、geoip/geosite 地理数据库
-src-git helloworld https://github.com/fw876/helloworld
+#src-git helloworld https://github.com/fw876/helloworld
 # 2. kenzo 源：提供 OpenClash 核心及常用辅助插件
 src-git kenzo https://github.com/kenzok8/openwrt-packages
 # 3. small 源：提供插件依赖库，解决编译时缺失依赖的问题
